@@ -4,7 +4,7 @@
 const P = {
   index: {
     title: 'Help Center',
-    seo: 'Information about how to use MyNewPackage.',
+    seo: 'Information about how to use Npm.stats.',
   },
   images: {
     title: 'Images',

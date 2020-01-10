@@ -1,7 +1,7 @@
 {
-  "name": "my-new-package",
+  "name": "@artdeco/npm.stats",
   "version": "0.0.0",
-  "description": "{{ description }}",
+  "description": "Fetch Stats From NPM and Upload It To ElasticSearch.",
   "scripts": {
     "t": "zoroaster -a",
     "test": "yarn t test/spec test/mask",
@@ -15,17 +15,17 @@
   "files": [],
   "repository": {
     "type": "git",
-    "url": "{{ repo.git_url }}"
+    "url": "git://github.com/art-deco/npm.stats.git"
   },
   "keywords": [
     "{{ keywords }}"
   ],
-  "author": "{{ author_name }} <{{ author_email }}>",
-  "license": "{{ license_spdx }}",
+  "author": "Anton <anton@adc.sh>",
+  "license": "AGPL-3.0",
   "bugs": {
-    "url": "{{ repo.html_url }}/issues"
+    "url": "https://github.com/art-deco/npm.stats/issues"
   },
-  "homepage": "{{ URL }}",
+  "homepage": "https://art-deco.github.io/npm.stats/",
   "devDependencies": {
     "documentary": "^1.34.1",
     "splendid": "^1.16.4",

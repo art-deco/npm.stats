@@ -4,7 +4,7 @@ const config = {
   replacements: [
     {
       re: /{{ company }}/g,
-      replacement: '[{{ trademark }}]({{ website }})',
+      replacement: '[Art Deco™](https://www.artd.eco)',
     },
   ],
   pages: '../pages',
@@ -13,9 +13,9 @@ const config = {
   // which prefixes to keep in the main CSS
   prefixes: ['-webkit-hyphens', '-ms-hyphens'],
   // for sitemap and social-buttons
-  url: 'https://mnpjs.github.io/splendid/',
+  url: 'https://art-deco.github.io/npm.stats/',
   // required when pages are at org.github.io/pages-name
-  mount: '/splendid',
+  mount: '/npm.stats/',
   potracePath: '~/.splendid/potrace',
 }
 

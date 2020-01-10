@@ -19,7 +19,7 @@ const meta = [{
 meta.forEach(({ key, id, props = {}, children = [] }) => {
   const Comp = __components[key]
   const plain = true
-  props.splendid = { mount: '/splendid/', addCSS(stylesheet) {
+  props.splendid = { mount: '/npm.stats/', addCSS(stylesheet) {
     return makeClassGetter(renameMaps[stylesheet])
   } }
 
